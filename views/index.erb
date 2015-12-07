@@ -1,4 +1,9 @@
-  <h1> My name is <%= @random_name %></h1>
+   <% if @name %>
+  <h1> My name is <%= @name %></h1>
+   <% end %>
+   <% if @age %>
+  <h2> I am <%= @age %> years old </h2>
+    <% end %>
     <div style='border: 3px solid blue'>
       <img src='http://bit.ly/1eze8aE'>
     </div>

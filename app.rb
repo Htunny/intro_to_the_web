@@ -5,5 +5,5 @@ get '/' do
 end
 
 get '/secret' do
-  "This is a secret message"
+  "This is a secret message for you"
 end
